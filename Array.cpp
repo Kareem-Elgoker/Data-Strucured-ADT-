@@ -238,4 +238,9 @@ public:
 
         return true;
     }
+
+    ~Array()
+    {
+        delete [] arr;
+    }
 };
